@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="./desktop.css" media="only screen and (min-width: 786px)">
+    <link rel="stylesheet" href="./tables.css" media="only screen and (max-width: 785px)">
+    <link rel="stylesheet" href="./mobile.css" media="only screen and (max-width: 440px)">
+</head>
+<body>
+    <p class="lost"></p>
+    <p class="winner"></p>
+    <button id="playAgain">Play again!</button>
+    <div class="game-container"> 
+        
+        <aside class="sidebar">
+            <div class="messages">
+                <p>Vidas: <span id="lives"></span></p>
+                <p>Tiempo: <span id="time"></span></p>
+                <p>Record: <span id="record"></span></p>
+                <p><span id="playAudio">🔊</span><span id="stopAudio">🔇</span></p>
+                <p id="number">Level: <span class="num"></span></p>
+            </div>
+            
+            <button id="restart">Start</button>
+        </aside>
+        
+        <canvas id="game"></canvas>
+        
+        <p class="countdown"></p>
+        
+        
+        <div class="btns">
+            <button id="up">arriba</button>
+            <button id="left">izquierda</button>
+            <button id="right">derecha</button>
+            <button id="down">abajo</button>
+        </div>
+
+    </div>
+    <p></p>
+    <script src="./maps.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

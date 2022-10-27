@@ -1,0 +1,48 @@
+.sidebar {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    width: 200px;
+    height: 350px;
+    flex-direction: column;
+}
+
+.sidebar div {
+    margin: 0;
+}
+
+.sidebar div p {
+    width: 195px;
+    margin-left: 50px;
+}
+
+.sidebar div:nth-child(1){
+    margin-top: 50px;
+}
+
+.sidebar button {
+    margin-top: 0px;
+}
+
+.btns {
+    height: 50px;
+}
+
+.winner {
+    width: 100%;
+    top: 220px;
+    left: 400px;
+}
+
+.lost {
+    width: 100%;
+    top: 220px;
+    left: 400px;
+}
+
+#playAgain {
+    top: 300px;
+    left: 550px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "javascript-game-project",
+  "version": "1.0.0",
+  "description": "juego del espacio",
+  "main": "maps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolettastr/javascript-game-project.git"
+  },
+  "author": "nicole struggia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nicolettastr/javascript-game-project/issues"
+  },
+  "homepage": "https://github.com/Nicolettastr/javascript-game-project#readme",
+  "keywords": [
+    "javascript",
+    "html",
+    "css",
+    "eventos",
+    "json"
+  ]
+}
